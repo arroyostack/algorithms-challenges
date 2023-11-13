@@ -11,6 +11,14 @@ const stringBreakdown = ( string ) => {
     }
 
     // Alternative approach with 'reduce'.
+    // return sanitize.split( '' ).reduce( ( acc, curr ) => {
+    //     if( acc[ curr ] ) {
+    //         acc[ curr ]++;
+    //     } else {
+    //         acc[ curr ] = 1;
+    //     }
+
+    //     return acc;
 
     return breakDown;
 };
